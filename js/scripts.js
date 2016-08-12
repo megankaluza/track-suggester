@@ -1,5 +1,6 @@
 $(document).ready(function(){
   var result = result;
+  var click = click;
   var d3 = $("input#d3").val();
   var d4 = $("input#d4").val();
   var d5 = $("input#d5").val();
@@ -22,20 +23,38 @@ $(document).ready(function(){
   $("button").click(function(){
     $(".form").fadeIn();
   });
-
+//Developer//
   $("input#d2").click(function(){
     $(".form3").show();
   });
-
+//Designer//
   $("input#d3").click(function(){
     $(".form2").show();
   });
-
-  $("input#d5").click(function(){
-    $(".form4").show();
+//Designer: Choose Illustrate Photos//
+  $("input#d4").click(function(){
+    $(".form6").show();
   });
+//Designer: Choose Manipulate Templates//
+ $("input#d5").click(function(){
+   $(".form4").show();
+ });
+ //Designer: Choose develop Wordpress, Drupal, and Joomla//
+ $("input#d8").click(function(){
+   $("span#php").show();
+ });
 
-  $("input#d6").click(function(){
-    $(".form5").show();
-  })
+
+//Desginer: Choose develop Android//
+
+
+
+
+
+$("#output").click(function(event){
+event.preventDefault();
+
+$("#output").text(result);
+
+  });
 });
