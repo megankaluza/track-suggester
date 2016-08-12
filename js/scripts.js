@@ -1,7 +1,6 @@
 $(document).ready(function(){
   var result = result;
-  var click = click;
-
+  var php = $("input#php").val ();
 
   $("button").click(function(){
     $(".intro-form").fadeIn();
@@ -21,6 +20,18 @@ $(document).ready(function(){
   //Designer: Choose Manipulate Templates//
   $("input#manipulate").click(function(){
     $(".develop-form").show();
+  });
+
+  document.getElementById("php").addEventListener("click", function() {
+    var result = result;
+
+    if (result === 'php') {
+      $("#php").show();
+    } else if (result === 'android') {
+      $("#android").show();
+    
+    };
+      $("#output").text(result);
   });
 
   //Designer: Choose develop Wordpress, Drupal, and Joomla//
@@ -53,5 +64,4 @@ $(document).ready(function(){
   //IF STATEMENT(JAVA and C#)//
   //Developer: Choose .NET//
   //IF STATEMENT (Ruby and Rails)//
-
 });

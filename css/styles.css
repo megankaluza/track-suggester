@@ -60,9 +60,10 @@ div.user-form {
   display: none;
 }
 
-div#output {
+#output {
   display: none;
 }
+
 
 footer {
   font-family: 'Arima Madurai', cursive;
