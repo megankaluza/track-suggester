@@ -2,8 +2,12 @@ body {
   width: 100%;
   font-family: 'Arima Madurai', cursive;
   text-align: center;
-  margin-top: 5%;
-  padding-top:10%;
+  margin-top: 2%;
+  padding-top: 5%;
+}
+
+button {
+  margin-top: 3%;
 }
 
 h1 {
