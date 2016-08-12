@@ -61,12 +61,12 @@ div.form7 {
   display: none;
 }
 
+div#output {
+  display: none;
+}
+
 footer {
   font-family: 'Arima Madurai', cursive;
   text-align: center;
   margin-top: 20%;
-}
-
-#php {
-  display: hidden;
 }

@@ -31,7 +31,7 @@ $(document).ready(function(){
   $("input#d3").click(function(){
     $(".form2").show();
   });
-//Designer: Choose Illustrate Photos//
+//Designer: Choose Manipulate your own design//
   $("input#d4").click(function(){
     $(".form6").show();
   });
@@ -39,22 +39,39 @@ $(document).ready(function(){
  $("input#d5").click(function(){
    $(".form4").show();
  });
+
  //Designer: Choose develop Wordpress, Drupal, and Joomla//
- $("input#d8").click(function(){
-   $("span#php").show();
- });
+ //IF STATEMENT(PHP AND DRUPAL)//
+//Designer: Choose develop Android//
+//IF STATEMENT(Java AND Android)//
 
 
-//Desginer: Choose develop Android//
+//Designer: Choose User Interface (UI) & atomic design//
+//IF STATEMENT(CSS AND DESIGN)
+//Designer: Choose Object-oriented design basics//
+//IF STATEMENT(C# AND .NET
 
-
-
-
-
-$("#output").click(function(event){
-event.preventDefault();
-
-$("#output").text(result);
-
+//Developer: Choose start-up company//
+$("input#d6").click(function(){
+  $(".form4").show();
   });
+
+//Developer: Choose larger complany//
+$("input#d7").click(function(){
+  $(".form5").show();
+});
+
+//Developer: Choose develop Wordpress, Drupal, and Joomla//
+//IF STATEMENT(PHP AND DRUPAL)//
+//Developer: Choose develop Android//
+//IF STATEMENT(Java AND Android)//
+
+//Developer: Choose Microsoft//
+//IF STATEMENT(JAVA and C#)//
+//Developer: Choose .NET//
+//IF STATEMENT (Ruby and Rails)//
+
+
+
+
 });
