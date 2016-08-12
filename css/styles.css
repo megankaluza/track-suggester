@@ -1,10 +1,61 @@
 body {
   width: 100%;
   font-family: 'Arima Madurai', cursive;
-  margin-top: 10%;
+  text-align: center;
+  margin-top: 5%;
+  padding-top:10%;
+}
+
+h1 {
+  color: #b80024;
+}
+
+h1.head {
+  color: green;
+}
+
+h2 {
+  color: #265cab;
+}
+
+.col-sm-5 {
+  margin-left: 30%;
+}
+
+#inputName {
+  text-align: center;
+}
+
+div.form {
+  margin-top: 8%;
+}
+
+div.form2 {
+  margin-top: 8%;
+}
+
+div.form3 {
+  margin-top: 8%;
+}
+
+div.form4 {
+  margin-top: 8%;
+}
+
+div.form5 {
+  margin-top: 8%;
+}
+
+div.form6 {
+  margin-top: 8%;
+}
+
+div.form7 {
+  margin-top: 8%;
 }
 
 footer {
   font-family: 'Arima Madurai', cursive;
   text-align: center;
+  margin-top: 20%;
 }
