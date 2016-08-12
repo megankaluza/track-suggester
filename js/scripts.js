@@ -1,6 +1,11 @@
 $(document).ready(function(){
-  $("select#form").submit(function(event){
-    event.preventDefault();
-    var
-  })
-})
+
+  $("button").click(function(){
+    $(".form").fadeIn();
+      });
+
+    $("input#d2").click(function(){
+      $(".form3").show();
+
+    });
+  });
