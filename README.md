@@ -6,19 +6,19 @@
 
 ## Description
 
-_This webpage displays a form with divs, checkboxes,_
+_This webpage displays a form with bootstrap, divs, checkboxes, ids, classes, jQuery, JavaScript, functions, and CSS that initiate a survey to decide which remaining classes to take at Epicodus. My HTML and .js pages include comments to organize and continue building my webpage_
 
 ## Setup/Installation Requirements
 
 * _Clone this repository_
     _To clone using Git, use the following terminal command:_
-    _https://github.com/megankaluza/portfolio.git_
+    _https://github.com/megankaluza/track_suggester.git_
 * _Open in text editor of your choice_
-*_Link to https://megankaluza.github.io/portfolio/_
+*_Link to #_
 
 ## Known Bugs
 
-_There are no bugs._
+_Need to fix "if" statements for proper functionality and results of the survey_
 
 ## Support and contact details
 
@@ -30,6 +30,8 @@ _HTML_
 _CSS_
 _Bootstrap_
 _Google Fonts_
+_jQuery_
+_JavaScript_
 
 ### License
 
