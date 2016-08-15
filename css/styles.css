@@ -26,10 +26,6 @@ h2 {
   margin-left: 30%;
 }
 
-#inputName {
-  text-align: center;
-}
-
 div.intro-form {
   margin-top: 8%;
   display: none;
@@ -60,8 +56,16 @@ div.user-form {
   display: none;
 }
 
+.jumbotron {
+  margin-top: 0%;
+}
+
 .show {
-  
+  display: block;
+}
+
+.hide {
+  display: none;
 }
 
 footer {
@@ -70,6 +74,48 @@ footer {
   margin-top: 20%;
 }
 
+#inputName {
+  text-align: center;
+}
+
 #output {
+  color: red;
+  font-size: 3em;
+  margin-top: 2%;
+  display: none;
+}
+
+#output2 {
+  color: red;
+  font-size: 3em;
+  margin-top: 2%;
+  display: none;
+}
+
+#output3 {
+  color: red;
+  font-size: 3em;
+  margin-top: 2%;
+  display: none;
+}
+
+#output4 {
+  color: red;
+  font-size: 3em;
+  margin-top: 2%;
+  display: none;
+}
+
+#output5 {
+  color: red;
+  font-size: 3em;
+  margin-top: 2%;
+  display: none;
+}
+
+#output6 {
+  color: red;
+  font-size: 3em;
+  margin-top: 2%;
   display: none;
 }

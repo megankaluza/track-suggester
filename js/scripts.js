@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function(event){
   var result = result;
   var developer = $("input#developer").val();
   var designer = $("input#designer").val();
@@ -22,26 +22,28 @@ $(document).ready(function(){
   });
   //Designer: Choose Manipulate Templates//
   $("input#manipulate").click(function(){
-    $(".develop-form").show("show");
+    $(".develop-form").addClass("show");
   });
-
-  if (result === 'php') {
-    $("#php-drupal").addClass("show");
-  } else if (result === 'android') {
-    $("#java-android").addClass("show");
-    $("php-drupal").removeClass();
-  };
   //Designer: Choose develop Wordpress, Drupal, and Joomla//
   //IF STATEMENT(PHP AND DRUPAL)//
+  $("input#php").click(function(){
+    $("#output").addClass("show");
+  });
   //Designer: Choose develop Android//
   //IF STATEMENT(Java AND Android)//
-
-
+  $("input#android").click(function(){
+    $("#output2").addClass("show");
+  });
   //Designer: Choose User Interface (UI) & atomic design//
   //IF STATEMENT(CSS AND DESIGN)
+  $("input#user-interface").click(function(){
+    $("#output3").addClass("show");
+  });
   //Designer: Choose Object-oriented design basics//
-  //IF STATEMENT(C# AND .NET
-
+  //IF STATEMENT(C# AND .NET)
+  $("input#object-oriented").click (function(){
+    $("#output4").addClass("show");
+  });
   //Developer: Choose start-up company//
   $("input#start-up").click(function(){
     $(".develop-form").addClass("show");
@@ -50,14 +52,15 @@ $(document).ready(function(){
   $("input#large").click(function(){
     $(".micro-form").addClass("show");
   });
-
-  //Developer: Choose develop Wordpress, Drupal, and Joomla//
-  //IF STATEMENT(PHP AND DRUPAL)//
-  //Developer: Choose develop Android//
-  //IF STATEMENT(Java AND Android)//
-
   //Developer: Choose Microsoft//
   //IF STATEMENT(JAVA and C#)//
+  $("input#microsoft").click(function(){
+    $("#output5").addClass("show");
+  });
   //Developer: Choose .NET//
   //IF STATEMENT (Ruby and Rails)//
+  $("input#net").click (function(){
+    $("#output6").addClass("show");
+  });
+  //event.preventDefault();
 });
