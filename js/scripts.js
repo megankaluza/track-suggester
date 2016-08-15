@@ -1,39 +1,36 @@
 $(document).ready(function(){
   var result = result;
+  var developer = $("input#developer").val();
+  var designer = $("input#designer").val();
   var php = $("input#php").val ();
+  var android = $("input#android").val();
 
   $("button").click(function(){
-    $(".intro-form").fadeIn();
+    $(".intro-form").addClass("show");
   });
   //Developer//
   $("input#developer").click(function(){
-    $(".developer-form").show();
+    $(".developer-form").addClass("show");
   });
   //Designer//
   $("input#designer").click(function(){
-    $(".designer-form").show();
+    $(".designer-form").addClass("show");
   });
   //Designer: Choose Manipulate your own design//
   $("input#illustrate").click(function(){
-    $(".user-form").show();
+    $(".user-form").addClass("show");
   });
   //Designer: Choose Manipulate Templates//
   $("input#manipulate").click(function(){
-    $(".develop-form").show();
+    $(".develop-form").show("show");
   });
 
-  document.getElementById("php").addEventListener("click", function() {
-    var result = result;
-
-    if (result === 'php') {
-      $("#php").show();
-    } else if (result === 'android') {
-      $("#android").show();
-    
-    };
-      $("#output").text(result);
-  });
-
+  if (result === 'php') {
+    $("#php-drupal").addClass("show");
+  } else if (result === 'android') {
+    $("#java-android").addClass("show");
+    $("php-drupal").removeClass();
+  };
   //Designer: Choose develop Wordpress, Drupal, and Joomla//
   //IF STATEMENT(PHP AND DRUPAL)//
   //Designer: Choose develop Android//
@@ -47,12 +44,11 @@ $(document).ready(function(){
 
   //Developer: Choose start-up company//
   $("input#start-up").click(function(){
-    $(".develop-form").show();
+    $(".develop-form").addClass("show");
   });
-
   //Developer: Choose larger complany//
   $("input#large").click(function(){
-    $(".micro-form").show();
+    $(".micro-form").addClass("show");
   });
 
   //Developer: Choose develop Wordpress, Drupal, and Joomla//

@@ -60,13 +60,16 @@ div.user-form {
   display: none;
 }
 
-#output {
-  display: none;
+.show {
+  
 }
-
 
 footer {
   font-family: 'Arima Madurai', cursive;
   text-align: center;
   margin-top: 20%;
+}
+
+#output {
+  display: none;
 }
