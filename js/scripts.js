@@ -1,4 +1,3 @@
-
 $(document).ready(function(){
   var nameInput = $("#inputName").val();
   var developerInput = $("input#developer").val();
