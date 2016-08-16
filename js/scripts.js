@@ -1,9 +1,18 @@
-$(document).ready(function(event){
-  var result = result;
-  var developer = $("input#developer").val();
-  var designer = $("input#designer").val();
-  var php = $("input#php").val ();
-  var android = $("input#android").val();
+
+$(document).ready(function(){
+  var nameInput = $("#inputName").val();
+  var developerInput = $("input#developer").val();
+  var designerInput = $("input#designer").val();
+  var illustrateInput = $("input#illustrate").val();
+  var manipulateInput = $("input#manipulate").val ();
+  var startInput = $("input#start").val();
+  var largeInput = $("input#large").val();
+  var phpInput = $("input#php").val();
+  var androidInput = $("input#android").val();
+  var microsoftInput = $("input#microsoft").val();
+  var netInput = $("input#net").val();
+  var userInput = $("input#user").val();
+  var objectInput = $("input#object").val();
 
   $("button").click(function(){
     $(".intro-form").addClass("show");
@@ -36,16 +45,16 @@ $(document).ready(function(event){
   });
   //Designer: Choose User Interface (UI) & atomic design//
   //IF STATEMENT(CSS AND DESIGN)
-  $("input#user-interface").click(function(){
+  $("input#user").click(function(){
     $("#output3").addClass("show");
   });
   //Designer: Choose Object-oriented design basics//
   //IF STATEMENT(C# AND .NET)
-  $("input#object-oriented").click (function(){
+  $("input#object").click (function(){
     $("#output4").addClass("show");
   });
   //Developer: Choose start-up company//
-  $("input#start-up").click(function(){
+  $("input#start").click(function(){
     $(".develop-form").addClass("show");
   });
   //Developer: Choose larger complany//
