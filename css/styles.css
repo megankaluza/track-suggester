@@ -1,4 +1,8 @@
 body {
+  background-image: url("../img/epicodus.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left-top;
   width: 100%;
   font-family: 'Arima Madurai', cursive;
   text-align: center;
@@ -10,16 +14,20 @@ button {
 }
 
 h1 {
-  font-size: 1.7em;
-  text-shadow: 3px 10px 10px black;
-  border-bottom: dotted 1px black;
-  color: #b80024;
+  font-size: 2em;
+  text-shadow: 8px 10px 10px black;
+  color: black;
+}
+
+a:hover{
+  color: black;
+  text-decoration: none;
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 1.8em;
   text-shadow: 3px 10px 10px black;
-  color: #265cab;
+  color: black;
 }
 
 footer {
@@ -28,17 +36,8 @@ footer {
   margin-top: 20%;
 }
 
-.radio {
-  width: 20%;
-  margin-left: 41%;
-}
-
 .col-sm-5 {
   margin-left: 30%;
-}
-
-div.radio {
-  margin-top: 8%;
 }
 
 .hide {
@@ -46,25 +45,39 @@ div.radio {
 }
 
 .jumbotron {
-  background-color: #265cab;
-  box-shadow: 5px 5px 5px black;
+  width: 50%;
+  margin-left: 25%;
+  box-shadow: 5px 5px 5px grey;
+  border-radius: 70%;
+  opacity: 0.7;
 }
 
 .jumbotron h1 {
-  color: white;
+  font-family: 'Orbitron', sans-serif;
+  font-color: black;
   text-shadow: 5px 5px 15px black;
+}
+
+.radio {
+  width: 20%;
+  margin-top: 8%;
+  margin-left: 41%;
 }
 
 .show {
   display: block;
 }
 
+.wrapper {
+  background-color: white;
+}
+
 #design {
   font-size: 2.5em;
-  font-family: 'Ewert', cursive;
-  color: #B7B5E7;
+  font-family: 'Orbitron', sans-serif;
+  text-shadow: 3px 10px 10px black;
   margin-top: 5%;
-  display: none;*/
+  display: none;
 }
 
 #inputEmail {
@@ -77,16 +90,16 @@ div.radio {
 
 #java {
   font-size: 2.5em;
-  font-family: 'Ewert', cursive;
-  color: #B7B5E7;
+  font-family: 'Orbitron', sans-serif;
+  text-shadow: 3px 10px 10px black;
   margin-top: 5%;
   display: none;
 }
 
 #php {
   font-size: 2.5em;
-  font-family: 'Ewert', cursive;
-  color: #B7B5E7;
+  font-family: 'Orbitron', sans-serif;
+  text-shadow: 3px 10px 10px black;
   margin-top: 5%;
   display: none;
 }
