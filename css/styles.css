@@ -13,10 +13,6 @@ h1 {
   color: #b80024;
 }
 
-h1.head {
-  color: green;
-}
-
 h2 {
   color: #265cab;
 }
@@ -31,33 +27,11 @@ footer {
   margin-left: 30%;
 }
 
-div.intro-form {
+div.radio {
   margin-top: 8%;
-  display: none;
 }
 
-div.developer-form {
-  margin-top: 8%;
-  display: none;
-}
-
-div.designer-form {
-  margin-top: 8%;
-  display: none;
-}
-
-div.develop-form {
-  margin-top: 8%;
-  display: none;
-}
-
-div.micro-form {
-  margin-top: 8%;
-  display: none;
-}
-
-div.user-form {
-  margin-top: 8%;
+.hide {
   display: none;
 }
 
@@ -75,52 +49,22 @@ div.user-form {
   display: block;
 }
 
-.hide {
+#design {
   display: none;
+}
+
+#inputEmail {
+  text-align: center;
 }
 
 #inputName {
   text-align: center;
 }
 
-#output {
-  color: #cc0000;
-  font-size: 3em;
-  margin-top: 2%;
+#java {
   display: none;
 }
 
-#output2 {
-  color: #cc0000;
-  font-size: 3em;
-  margin-top: 2%;
-  display: none;
-}
-
-#output3 {
-  color: #cc0000;
-  font-size: 3em;
-  margin-top: 2%;
-  display: none;
-}
-
-#output4 {
-  color: #cc0000;
-  font-size: 3em;
-  margin-top: 2%;
-  display: none;
-}
-
-#output5 {
-  color: #cc0000;
-  font-size: 3em;
-  margin-top: 2%;
-  display: none;
-}
-
-#output6 {
-  color: #cc0000;
-  font-size: 3em;
-  margin-top: 2%;
+#php {
   display: none;
 }
