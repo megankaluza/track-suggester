@@ -10,44 +10,44 @@ $(document).ready(function(){
   var java = 0;
   var php = 0;
 
-if(questionOneInput === "Developer") {
+if(questionOneInput === "developer") {
   php+=1;
   java+=2;
-} else if (questionOneInput === "Designer") {
+} else if (questionOneInput === "designer") {
   design+=2;
 };
 
-if (questionTwoInput === "Manipulate Templates") {
+if (questionTwoInput === "manipulate") {
   php+=1;
-} else if (questionTwoInput === "Manipulate your own Design") {
+} else if (questionTwoInput === "template") {
   design+=2;
   java+=1;
 };
 
-if (questionThreeInput === "Start-Up Company") {
+if (questionThreeInput === "start-up") {
   php+=1;
-} else if (questionThreeInput === "Larger Company") {
+} else if (questionThreeInput === "large") {
   java+=1;
 };
 
-if (questionFourInput === "Develop Wordpress, Drupal, and Joomla") {
+if (questionFourInput === "wordpress") {
   php+=1;
   design+=1;
-} else if (questionFourInput === "Develop Android") {
+} else if (questionFourInput === "android") {
   java+=1;
 };
 
-if (questionFiveInput === "Back-End Development") {
+if (questionFiveInput === "back-end") {
   php+=1;
   java+=1;
-} else if (questionFiveInput === "Front-End Design") {
+} else if (questionFiveInput === "front-end") {
   design+=2;
   java+=1;
 };
 
-if (questionSixInput === "Mobile User Interface (UI)") {
+if (questionSixInput === "mobile-user") {
   java+=2;
-} else if (questionSixInput === "User Interface (UI)") {
+} else if (questionSixInput === "user-interface") {
   design+=2;
 };
 
@@ -58,7 +58,6 @@ if (design > php && design > java) {
 } else if (java > design && java > php) {
    $("#java").addClass("show");
 };
-
   event.preventDefault();
   });
 });
