@@ -10,10 +10,15 @@ button {
 }
 
 h1 {
+  font-size: 1.7em;
+  text-shadow: 3px 10px 10px black;
+  border-bottom: dotted 1px black;
   color: #b80024;
 }
 
 h2 {
+  font-size: 1.5em;
+  text-shadow: 3px 10px 10px black;
   color: #265cab;
 }
 
@@ -21,6 +26,11 @@ footer {
   font-family: 'Arima Madurai', cursive;
   text-align: center;
   margin-top: 20%;
+}
+
+.radio {
+  width: 20%;
+  margin-left: 41%;
 }
 
 .col-sm-5 {
@@ -50,7 +60,11 @@ div.radio {
 }
 
 #design {
-  display: none;
+  font-size: 2.5em;
+  font-family: 'Ewert', cursive;
+  color: #B7B5E7;
+  margin-top: 5%;
+  display: none;*/
 }
 
 #inputEmail {
@@ -62,9 +76,17 @@ div.radio {
 }
 
 #java {
+  font-size: 2.5em;
+  font-family: 'Ewert', cursive;
+  color: #B7B5E7;
+  margin-top: 5%;
   display: none;
 }
 
 #php {
+  font-size: 2.5em;
+  font-family: 'Ewert', cursive;
+  color: #B7B5E7;
+  margin-top: 5%;
   display: none;
 }

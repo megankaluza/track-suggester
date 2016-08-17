@@ -9,34 +9,34 @@ $(document).ready(function(){
   var design = 0;
   var java = 0;
   var php = 0;
-
+//Question 1: Developer and Designer//
 if(questionOneInput === "developer") {
   php+=1;
   java+=2;
 } else if (questionOneInput === "designer") {
   design+=2;
 };
-
+//Question 2//
 if (questionTwoInput === "manipulate") {
   php+=1;
 } else if (questionTwoInput === "template") {
   design+=2;
   java+=1;
 };
-
+//Question 3//
 if (questionThreeInput === "start-up") {
   php+=1;
 } else if (questionThreeInput === "large") {
   java+=1;
 };
-
+//Question 4//
 if (questionFourInput === "wordpress") {
   php+=1;
   design+=1;
 } else if (questionFourInput === "android") {
   java+=1;
 };
-
+//Question 5//
 if (questionFiveInput === "back-end") {
   php+=1;
   java+=1;
@@ -44,13 +44,13 @@ if (questionFiveInput === "back-end") {
   design+=2;
   java+=1;
 };
-
+//Question 6//
 if (questionSixInput === "mobile-user") {
   java+=2;
 } else if (questionSixInput === "user-interface") {
   design+=2;
 };
-
+//Tracks//
 if (design > php && design > java) {
    $("#design").addClass("show");
 } else if (php > design && php > java) {
