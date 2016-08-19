@@ -1,139 +1,139 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <!--Bootstrap-->
-  <link href="css/bootstrap.css" rel="stylesheet" media="screen">
-  <!--My stylesheet-->
-  <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <!--jQuery-->
-  <script src="js/jquery-3.1.0.js"></script>
-  <!--Bootstrap jQuery-->
-  <script src="js/bootstrap.js"></script>
-  <!--My Scripts-->
-  <script src="js/scripts.js"></script>
-  <!--Google Fonts-->
-  <link href="https://fonts.googleapis.com/css?family=Arima+Madurai|Open+Sans" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
-  <title>Select your Track</title>
-</head>
-<body>
-  <!--Header-->
-  <div class="jumbotron">
-    <h1><a href="http://www.epicodus.com/">Welcome</a></h1>
-    </div>
-    <!--Intro Name-->
-    <div id="wrapper">
-      <form id="track">
-        <div class="form-group row">
-          <h2>Name</h2>
-          <div class="col-sm-5">
-            <input type="name" class="form-control" id="inputName" placeholder="Name">
+  <head>
+    <!--Bootstrap-->
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+    <!--My stylesheet-->
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <!--jQuery-->
+    <script src="js/jquery-3.1.0.js"></script>
+    <!--Bootstrap jQuery-->
+    <script src="js/bootstrap.js"></script>
+    <!--My Scripts-->
+    <script src="js/scripts.js"></script>
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Arima+Madurai|Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <title>Select your Track</title>
+  </head>
+  <body>
+    <!--Header-->
+    <div class="jumbotron">
+      <h1><a href="http://www.epicodus.com/">Welcome</a></h1>
+      </div>
+      <!--Intro Name-->
+      <div id="wrapper">
+        <form id="track">
+          <div class="form-group row">
+            <h2>Name</h2>
+            <div class="col-sm-5">
+              <input type="name" class="form-control" id="inputName" placeholder="Name">
+            </div>
           </div>
-        </div>
-        <!--Email-->
-        <div class="form-group row">
-          <h2>Email</h2>
-          <div class="col-sm-5">
-            <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+          <!--Email-->
+          <div class="form-group row">
+            <h2>Email</h2>
+            <div class="col-sm-5">
+              <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+            </div>
           </div>
-        </div>
-        <!--Developer or Designer-->
-        <div class="radio">
-          <h1>Are you a Developer or a Designer?</h1>
-          <label>
-            <input type="radio" name="questionOne" value="developer" checked>
-            Developer
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="questionOne" value="designer">
-            Designer
-          </label>
-        </div>
-        <!--Manipulating Templates-->
-        <div class="radio">
-          <h1>What would you rather do?</h1>
-          <label>
-            <input type="radio" name="questionTwo" value="manipulate" checked>
-            Manipulate your own Design
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="questionTwo" value="template">
-            Manipulate Templates
-          </label>
-        </div>
-        <!--Where would you rather work?-->
-        <div class="radio">
-          <h1>Where would you rather work?</h1>
-          <label>
-            <input type="radio" name="questionThree" value="start-up" checked>
-            Start-Up Company
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="questionThree" value="large">
-            Larger Company
-          </label>
-        </div>
-        <!--PHP or Android-->
-        <div class="radio">
-          <h1>Choose One:</h1>
-          <label>
-            <input type="radio" name="questionFour" value="wordpress" checked>
-            Develop WordPress, Drupal, and Joomla
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="questionFour" value="android">
-            Develop Android
-          </label>
-        </div>
-        <!--Back-End or Front-End-->
-        <div class="radio">
-          <h1>What are you most interested in?</h1>
-          <label>
-            <input type="radio" name="questionFive" value="back-end" checked>
-            Back-End Development
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="questionFive" value="front-end">
-            Front-End Design
-          </label>
-        </div>
-        <!--User Form-->
-        <div class="radio">
-          <h1>What appeals to you?</h1>
-          <label>
-            <input type="radio" name="questionSix" value="mobile-user" checked>
-            Mobile User Interface (UI)
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="QuestionSix" value="user-interface">
-            User Interface (UI)
-          </label>
-        </div>
-        <button type="submit">Submit</button>
-        <!--Responses-->
-        <div id="php">
-          <span>Your track is PHP and Drupal</span>
-        </div>
-        <div id="java">
-          <span>Your track is Java and Android</span>
-        </div>
-        <div id="design">
-          <span>Your track is CSS and Design</span>
-        </div>
-      </form>
-    </div>
-    <footer>&copy;Megan Kaluza</footer>
-  </body>
+          <!--Developer or Designer-->
+          <div class="radio">
+            <h1>Are you a Developer or a Designer?</h1>
+            <label>
+              <input type="radio" name="questionOne" value="developer" checked>
+              Developer
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="questionOne" value="designer">
+              Designer
+            </label>
+          </div>
+          <!--Manipulating Templates-->
+          <div class="radio">
+            <h1>What would you rather do?</h1>
+            <label>
+              <input type="radio" name="questionTwo" value="manipulate" checked>
+              Manipulate your own Design
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="questionTwo" value="template">
+              Manipulate Templates
+            </label>
+          </div>
+          <!--Where would you rather work?-->
+          <div class="radio">
+            <h1>Where would you rather work?</h1>
+            <label>
+              <input type="radio" name="questionThree" value="start-up" checked>
+              Start-Up Company
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="questionThree" value="large">
+              Larger Company
+            </label>
+          </div>
+          <!--PHP or Android-->
+          <div class="radio">
+            <h1>Choose One:</h1>
+            <label>
+              <input type="radio" name="questionFour" value="wordpress" checked>
+              Develop WordPress, Drupal, and Joomla
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="questionFour" value="android">
+              Develop Android
+            </label>
+          </div>
+          <!--Back-End or Front-End-->
+          <div class="radio">
+            <h1>What are you most interested in?</h1>
+            <label>
+              <input type="radio" name="questionFive" value="back-end" checked>
+              Back-End Development
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="questionFive" value="front-end">
+              Front-End Design
+            </label>
+          </div>
+          <!--User Form-->
+          <div class="radio">
+            <h1>What appeals to you?</h1>
+            <label>
+              <input type="radio" name="questionSix" value="mobile-user" checked>
+              Mobile User Interface (UI)
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="QuestionSix" value="user-interface">
+              User Interface (UI)
+            </label>
+          </div>
+          <button type="submit">Submit</button>
+          <!--Responses-->
+          <div id="php">
+            <span>Your track is PHP and Drupal</span>
+          </div>
+          <div id="java">
+            <span>Your track is Java and Android</span>
+          </div>
+          <div id="design">
+            <span>Your track is CSS and Design</span>
+          </div>
+        </form>
+      </div>
+      <footer>&copy;Megan Kaluza</footer>
+    </body>
   </html>
