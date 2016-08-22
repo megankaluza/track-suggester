@@ -53,13 +53,11 @@ $(document).ready(function(){
     };
     //Tracks//
     if (design > php && design > java) {
-       $("#design").addClass("show");
+       $("#design").append().addClass("show");
     } else if (php > design && php > java) {
-       $("#php").addClass("show");
+       $("#php").append().addClass("show");
     } else if (java > design && java > php) {
-       $("#java").addClass("show");
+       $("#java").append().addClass("show");
     };
-    $("button#clear").click();
-      $("form#track").reset();
-      });
+    });
     });
