@@ -59,5 +59,8 @@ $(document).ready(function(){
     } else if (java > design && java > php) {
        $("#java").append().addClass("show");
     };
+    $("button#clear").click(function(){
+   location.reload();
+    });
     });
     });
