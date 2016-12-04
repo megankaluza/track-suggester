@@ -6,19 +6,35 @@
 
 ## Description
 
-_This webpage displays a form with bootstrap, divs, checkboxes, ids, classes, jQuery, JavaScript, functions, and CSS that initiate a survey to decide which remaining classes to take at Epicodus. My HTML and .js pages include comments to organize and continue building my webpage_
+![screenshot](screen_shot.png)
+
+## Description
+
+_Objectives:_
+
+* _Site uses branching to return the result._
+
+* _jQuery is used to show and hide the result after questions are answered and submitted._
+
+* _Form gathers input from the user._
+
+* _Variable names are descriptive of what they represent._
+
+* _Web page is styled using Bootstrap and custom CSS._
+
+* _Project is in a polished, portfolio-quality state._
+
 
 ## Setup/Installation Requirements
 
 * _Clone this repository_
     _To clone using Git, use the following terminal command:_
-    _https://github.com/megankaluza/track_suggester.git_
+    _https://github.com/megankaluza/track-suggester.git_
 * _Open in text editor of your choice_
-*_Link to #_
 
 ## Known Bugs
 
-_Need to fix "if" statements for proper functionality and results of the survey_
+_No known bugs at this time._
 
 ## Support and contact details
 
